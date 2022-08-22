@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="suitcase.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4">
+                    </path>
+                </svg>
+                <span class="ml-3 text-xl">SOURAV SINGH</span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-8 hover:text-white" href="index.html">Home</a>
+                <!-- <a class="mr-8 hover:text-white" href="#about">About</a> -->
+                <a class="mr-8 hover:text-white" href="#work">work</a>
+
+                <a class="mr-8 hover:text-white" href="#blog">Blog</a>
+                <a class="mr-8 hover:text-white" href="#test">Testimonials</a>
+                <a class="mr-8 hover:text-white" href="#gallery">Gallery</a>
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                <a href="#contact">
+                    Get
+                    In Touch
+                </a>
+
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+
+
+
+    <section class="text-gray-400 bg-gray-900 body-font"
+        style="background-image: url(img/gradienta-OzfD79w8ptA-unsplash.jpg);">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+                <!-- <img class="object-cover object-center rounded" alt="hero" src="dev1.png"
+                    style="width: 291px; margin: -48px auto --96px;"> -->
+                <img class="object-cover object-center rounded" alt="hero" src="dev1.png"
+                    style="width: 291px;margin: 38px auto --96px;margin-bottom: 11opx;margin: auto;margin-bottom: -96px;">
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Sourav Singh
+                    <br class="hidden lg:inline-block">A Sucessfull Web Developer
+                </h1>
+                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+                    plant
+                    cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken
+                    authentic
+                    tumeric truffaut hexagon try-hard chambray.</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Download
+                        CV</button>
+                    <button
+                        class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tecnologies we use -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- work section  -->
+    <section class="text-gray-400 bg-gray-900 body-font" id="work"
+        style="background-image: url(img/gradienta-G084bO4wGDA-unsplash.jpg);">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">My Projects
+                </h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here You can list your your projects to show your
+                    client which type of work you can do for him.</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-white mb-3">Project Name</h1>
+                            <p class="leading-relaxed">Project description.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_960_720.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-white mb-3">Project Name</h1>
+                            <p class="leading-relaxed">Project description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-white mb-3">Project Name</h1>
+                            <p class="leading-relaxed">Project description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-white mb-3">Project Name</h1>
+                            <p class="leading-relaxed">Project description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-white mb-3">Project Name</h1>
+                            <p class="leading-relaxed">Project description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-white mb-3">Project Name</h1>
+                            <p class="leading-relaxed">Project description </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- services  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- blog -->
+
+
+
+    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden" id="blog">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="-my-8 divide-y-2 divide-gray-800">
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">HTML</span>
+                        <span class="mt-1 text-gray-500 text-sm">19 Aug 2022</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">HTML complete course ffor begginers
+                        </h2>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                            tenetur nulla earum soluta maiores ut sint officiis. Porro nisi atque sed, aut possimus qui
+                            sunt vero, adipisci eum obcaecati nulla hic odit?</p>
+                        <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">Javascript</span>
+                        <span class="mt-1 text-gray-500 text-sm">19 Aug 2022</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">Javascript complete roadmap..</h2>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sequi,
+                            eaque officia culpa consequuntur fugit. Commodi nemo praesentium error illum eius ad nihil
+                            voluptatem, sequi perferendis veritatis incidunt dolore nulla molestiae fuga quos provident
+                            doloribus blanditiis. Ipsam tempore veniam repellendus obcaecati facere?</p>
+                        <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">CSS</span>
+                        <span class="mt-1 text-gray-500 text-sm">19 Aug 2022</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">Blog to learn complete css and
+                            roadmap.</h2>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                            corrupti nemo necessitatibus repellat! Ipsum ex quod earum maiores explicabo facilis, modi
+                            reiciendis officia..</p>
+                        <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">Blog3</span>
+                        <span class="mt-1 text-gray-500 text-sm">19 Aug 2022</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">your blog Title </h2>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                            magni dicta, possimus, fugiat incidunt neque vel soluta iusto reiciendis dolor molestiae in
+                            voluptatibus a, quasi quo explicabo eveniet sunt unde exercitationem similique.</p>
+                        <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- contact us -->
+    <section class="text-gray-400 bg-gray-900 body-font relative" id="contact"
+        style="background-image: url(img/gradienta-G084bO4wGDA-unsplash.jpg);">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div
+                class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <!-- <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                    style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe> -->
+
+                <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7772.931260484756!2d77.57556117451111!3d13.069649714106228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae181e3c578049%3A0x1f7122093ff96d5c!2sKodigehalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1660889196858!5m2!1sen!2sin"
+                    style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>
+                <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+                        <p class="mt-1">Your address goes here</p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+                        <a class="text-indigo-400 leading-relaxed">example@email.com</a>
+                        <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">123-456-7890</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-white text-lg mb-1 font-medium title-font">Get In Touch</h2>
+                <p class="leading-relaxed mb-5">Fill this form and get in touch with us.</p>
+                <div class="relative mb-4">
+                    <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button
+                    class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+                <p class="text-xs text-gray-400 text-opacity-90 mt-3">Fill all the fields very carefully.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Testimonials -->
+    <section class="text-gray-400 bg-gray-900 body-font" id="#test"
+        style="background-image: url(img/gradienta-lweK7Wme_jo-unsplash.jpg);">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest">Testimonials</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here you can write about your Testimonials
+                    i add a dummy pictures and names, And their work.
+                </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="https://writestylesonline.com/wp-content/uploads/2019/01/What-To-Wear-For-Your-Professional-Profile-Picture-or-Headshot.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-white">jennifer winget</h2>
+                            <h3 class="text-gray-500 mb-3">React Developer</h3>
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora molestiae
+                                quos quod similique assumenda quam deserunt omnis. Fugit.
+                            </p>
+                            <span class="inline-flex">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="https://learnenglish.britishcouncil.org/sites/podcasts/files/2021-10/RS6715_492969113-hig.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-white">Robert Taylor</h2>
+                            <h3 class="text-gray-500 mb-3">Designer</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam suscipit
+                                sapiente eligendi odit ex reiciendis iure natus enim!
+                                <span class="inline-flex">
+                                    <a class="text-gray-500">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                    <a class="ml-2 text-gray-500">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                    <a class="ml-2 text-gray-500">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStp3rqrXNW3bha_MHg5OcCnst_boF_rN-k1nu-nZg&s">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-white">Annie Potts</h2>
+                            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore illum
+                                assumenda tempora officia consequatur, distinctio deleniti alias explicabo.
+
+                            </p>
+                            <span class="inline-flex">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="https://thumbs.dreamstime.com/b/corporate-profile-photo-professional-businessman-executive-arms-folded-boardroom-45082954.jpg">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-white">Will Smith</h2>
+                            <h3 class="text-gray-500 mb-3">Blockchain Developer</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                                reprehenderit minima voluptas, corrupti sunt sint amet quasi odio!
+                            </p>
+                            <span class="inline-flex">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- gallery section  -->
+
+
+
+
+
+
+    <section class="text-gray-400 bg-gray-900 body-font"
+        style="background-image: url(img/gradienta-t-Rt42Wl1RQ-unsplash.jpg);" id="gallery">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex w-full mb-20 flex-wrap">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">Gallery</h1>
+                <!-- <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon
+                    brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard
+                    of
+                    them man bun deep jianbing selfies heirloom.</p> -->
+            </div>
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                    </div>
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block"
+                            src="https://images.unsplash.com/photo-1645680827507-9f392edae51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block"
+                            src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://images.unsplash.com/photo-1501959181532-7d2a3c064642?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1193&q=80">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services section  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section  -->
+
+    <footer class="text-gray-400 bg-gray-900 body-font"
+        style="background-image: url(img/gradienta-G084bO4wGDA-unsplash.jpg);">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4">
+                    </path>
+                </svg>
+                <span class="ml-3 text-xl">Portfolio</span>
+            </a>
+            <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">©
+                2022
+                Portfolio —
+                <a href="https://github.com/hydradocs" class="text-gray-500 ml-1" target="_blank"
+                    rel="noopener noreferrer">@hydradocs</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-400">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4">
+                        </path>
+                    </svg>
+                    <a class="ml-3 text-gray-400" href="">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400" href="https://www.instagram.com/dark_wiki" target="_blank">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400" href="https://www.linkedin.com/in/sourav-singh-sardar/"
+                        target="_blank">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
